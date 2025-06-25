@@ -65,7 +65,7 @@ class AboutPage extends StatelessWidget {
               ),
             ),
             child: Image.asset(
-              'assets/images/me.jpg',
+              'assets/images/me.png',
             ),
           ),
         ),
