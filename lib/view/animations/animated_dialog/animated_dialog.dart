@@ -434,7 +434,8 @@ class CustomDialogWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     assert(debugCheckHasMaterialLocalizations(context));
     final ThemeData theme = Theme.of(context);
-    final DialogTheme dialogTheme = DialogTheme.of(context);
+    // final DialogTheme dialogTheme = DialogTheme.of(context);
+    final DialogTheme dialogTheme = DialogTheme.of(context) as DialogTheme;
     final List<Widget> children = <Widget>[];
     String? label = semanticLabel;
 
@@ -620,7 +621,8 @@ class CustomDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final DialogTheme dialogTheme = DialogTheme.of(context);
+    // final DialogTheme dialogTheme = DialogTheme.of(context);
+    final DialogTheme dialogTheme = DialogTheme.of(context) as DialogTheme;
     return AnimatedPadding(
       padding: MediaQuery.of(context).viewInsets +
           const EdgeInsets.symmetric(horizontal: 40.0, vertical: 24.0),
