@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:muzammil_hussain/extensions/context_ext.dart';
-import 'package:muzammil_hussain/view/widgets/nav_bar.dart';
+import 'package:gert_haxhija/extensions/context_ext.dart';
+import 'package:gert_haxhija/view/widgets/nav_bar.dart';
 import 'package:provider/provider.dart';
 
 import '../../providers/animated_mouse_position_provider.dart';

@@ -28,7 +28,7 @@ class AboutPage extends StatelessWidget {
                   children: [
                     SectionTitle(
                       backgroundText: "ABOUT",
-                      foreGroundText: "A Brief History of Muzammil",
+                      foreGroundText: "A Brief History of Gert",
                       subTitle: "Bio",
                     ),
                     SizedBox(height: 140),
@@ -82,14 +82,14 @@ class AboutPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
-                    "A BRIEF PROFILE OF MUZAMMIL",
+                    "A BRIEF PROFILE OF GERT",
                     style: Theme.of(context).textTheme.titleSmall?.copyWith(
                           fontFamily: "Goku",
                         ),
                   ),
                   SizedBox(height: 10),
                   Text(
-                    "Muzammil Hussain is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
+                    "Gert Haxhija is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -97,7 +97,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    "Acknowledging that he's on a journey of continuous improvement, Muzammil understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
+                    "Acknowledging that he's on a journey of continuous improvement, Gert understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -105,7 +105,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    "In essence, Muzammil Hussain is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
+                    "In essence, Gert Haxhija is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -139,7 +139,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 50),
         Text(
-          "A BRIEF PROFILE OF MUZAMMIL",
+          "A BRIEF PROFILE OF GERT",
           style: Theme.of(context).textTheme.titleSmall?.copyWith(
                 fontFamily: "Goku",
                 fontSize: 18,
@@ -148,7 +148,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 10),
         Text(
-          "Muzammil Hussain is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
+          "Gert Haxhija is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
@@ -157,7 +157,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 20),
         Text(
-          "Acknowledging that he's on a journey of continuous improvement, Muzammil understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
+          "Acknowledging that he's on a journey of continuous improvement, Gert understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
           style: Theme.of(context)
               .textTheme
               .bodyMedium
@@ -166,7 +166,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 20),
         Text(
-          "In essence, Muzammil Hussain is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
+          "In essence, Gert Haxhija is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
           style: Theme.of(context)
               .textTheme
               .bodyMedium

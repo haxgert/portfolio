@@ -19,7 +19,7 @@ This is my personal portfolio website v0.01 (Still a work in progress) built wit
 
 ### 🔗 Preview Links:
 
-- 🕸️ [Web Version: https://muzammil-hussain.vercel.app/](https://muzammil-hussain.vercel.app/)
+- 🕸️ [Web Version: https://gert-haxhija.vercel.app/](https://gert-haxhija.vercel.app/)
 
 ### 🪪 Project License:
 
@@ -28,4 +28,4 @@ This project is licensed under [BSD 3-Clause License](LICENSE).
 Feel free to check it out and give it a ⭐ if you like it.
 Follow me for more updates and more projects ...
 
-Copyright (©️) 2024 **Muzammil Hussain**
+Copyright (©️) 2025 **Gert Haxhija**

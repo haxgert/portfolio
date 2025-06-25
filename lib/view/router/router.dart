@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:muzammil_hussain/view/pages/experience/experience_page.dart';
-import 'package:muzammil_hussain/view/router/route_transition.dart';
+import 'package:gert_haxhija/view/pages/experience/experience_page.dart';
+import 'package:gert_haxhija/view/router/route_transition.dart';
 import '../pages/about/about_page.dart';
 import '../pages/contact/contact_page.dart';
 import '../pages/home/home_page.dart';

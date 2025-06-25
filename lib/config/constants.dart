@@ -6,15 +6,15 @@ class Constants {
 
   static const mediumAnimationSpeed = Duration(milliseconds: 400);
 
-  static const email = 'muzammil0301@gmail.com';
-  static const phoneNumber = '+92 3085098342';
-  static const address = 'Gulberg 2, Lahore, Pakistan';
+  static const email = 'haxhijag645@gmail.com';
+  static const phoneNumber = '+355 677514201';
+  static const address = 'Bulevardi Zogu I Pare, Shkoder, Albania';
 
-  static const linkedInUrl = 'https://www.linkedin.com/in/muzammil-developer/';
-  static const xUrl = 'https://x.com/muzammil0301';
-  static const githubUrl = 'https://github.com/muzammil-Bit/';
+  static const linkedInUrl = 'https://www.linkedin.com/in/gert-haxija0212';
+  static const xUrl = 'https://x.com/gerthaxhija';
+  static const githubUrl = 'https://github.com/haxgert/';
   static const resumeURl =
-      'https://drive.google.com/file/d/1RuRh_n9ZeRvFgpsdbueiBRTafvKb4lfU/view?usp=sharing';
+      'https://drive.google.com/file/d/1XV6aylFm8qg0qbXPp2Xj0vFntMW9hwnS/view?usp=drive_link';
 
   static outLinedText(BuildContext context, {double strokeWidth = 1}) {
     return Paint()

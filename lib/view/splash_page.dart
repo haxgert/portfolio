@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:muzammil_hussain/extensions/context_ext.dart';
+import 'package:gert_haxhija/extensions/context_ext.dart';
 import '../providers/app_state_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -88,7 +88,7 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
                         scale: _textAnimation.value,
                         child: Text.rich(
                           TextSpan(
-                            text: "MH",
+                            text: "GH",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleLarge

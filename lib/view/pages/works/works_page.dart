@@ -1,8 +1,8 @@
 import 'package:entry/entry.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:muzammil_hussain/extensions/context_ext.dart';
-import 'package:muzammil_hussain/models/project.dart';
+import 'package:gert_haxhija/extensions/context_ext.dart';
+import 'package:gert_haxhija/models/project.dart';
 
 import '../../animations/animated_dialog/animated_dialog.dart';
 import '../../widgets/nav_bar.dart';

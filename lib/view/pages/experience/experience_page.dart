@@ -1,7 +1,7 @@
 import 'package:entry/entry.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:muzammil_hussain/view/widgets/app_button.dart';
+import 'package:gert_haxhija/view/widgets/app_button.dart';
 
 import '../../router/routes.dart';
 import '../../widgets/nav_bar.dart';

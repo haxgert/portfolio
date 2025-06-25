@@ -1,8 +1,8 @@
 import 'package:entry/entry.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:muzammil_hussain/view/pages/experience/experience_page.dart';
-import 'package:muzammil_hussain/view/widgets/app_button.dart';
+import 'package:gert_haxhija/view/pages/experience/experience_page.dart';
+import 'package:gert_haxhija/view/widgets/app_button.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -100,7 +100,7 @@ class _AnimatedNavWrapperState extends State<AnimatedNavWrapper> {
                         },
                         child: Text.rich(
                           TextSpan(
-                            text: "MH",
+                            text: "GH",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleLarge

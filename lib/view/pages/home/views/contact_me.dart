@@ -108,7 +108,7 @@ class _ContactMeCardState extends State<_ContactMeCard> {
                         ),
                   ),
                   Text(
-                    "CONTACT\nMUZAMMIL",
+                    "CONTACT\nGERT",
                     style: Theme.of(context).textTheme.labelLarge?.copyWith(
                           fontSize: MediaQuery.of(context).size.width < 300
                               ? 35

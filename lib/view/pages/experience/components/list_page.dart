@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:muzammil_hussain/extensions/context_ext.dart';
-import 'package:muzammil_hussain/models/experience.dart';
-import 'package:muzammil_hussain/view/pages/experience/components/step_card.dart';
+import 'package:gert_haxhija/extensions/context_ext.dart';
+import 'package:gert_haxhija/models/experience.dart';
+import 'package:gert_haxhija/view/pages/experience/components/step_card.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
 class JobsListView extends StatefulWidget {

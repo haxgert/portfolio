@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:muzammil_hussain/extensions/context_ext.dart';
+import 'package:gert_haxhija/extensions/context_ext.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 import '../../../../models/project.dart';

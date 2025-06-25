@@ -70,7 +70,7 @@ class _HeroViewState extends State<HeroView> {
                   child: Opacity(
                     opacity: 0.8,
                     child: OverlappingHeroText(
-                      text: "M",
+                      text: "G",
                       initialXOffset: 200,
                       initialYOffset: 200,
                     ),
@@ -82,7 +82,7 @@ class _HeroViewState extends State<HeroView> {
                   bottom: _isScrolled ? -100 : -50,
                   right: constraints.maxWidth * 0.2,
                   child: OverlappingHeroText(
-                    text: "Z",
+                    text: "R",
                     initialXOffset: -200,
                     initialYOffset: 200,
                   ),
@@ -97,7 +97,7 @@ class _HeroViewState extends State<HeroView> {
                           ? 130
                           : 150,
                   child: OverlappingHeroText(
-                    text: "U",
+                    text: "T",
                     initialXOffset: -200,
                     initialYOffset: 200,
                   ),
@@ -112,7 +112,7 @@ class _HeroViewState extends State<HeroView> {
                         Entry.opacity(
                           delay: Constants.smallDelay,
                           child: OverlappingText(
-                            text: "Muzammil",
+                            text: "Gert",
                             offset: Offset(-_heroTitleFontSize(context) / 3,
                                 -_heroTitleFontSize(context) / 3),
                             foreGroundStyle: Theme.of(context)
@@ -134,7 +134,7 @@ class _HeroViewState extends State<HeroView> {
                           child: Transform.translate(
                             offset: Offset(0, -20),
                             child: AutoSizeText(
-                              "Hussain",
+                              "Haxhija",
                               style: Theme.of(context)
                                   .textTheme
                                   .headlineLarge
@@ -273,7 +273,7 @@ class _WeatherAndTimeState extends State<_WeatherAndTime> {
           children: [
             if (!context.isMobile) ...[
               Text(
-                "M.U",
+                "G.H",
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               SizedBox(width: 20),
