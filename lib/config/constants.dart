@@ -11,7 +11,7 @@ class Constants {
   static const address = 'Bulevardi Zogu I Pare, Shkoder, Albania';
 
   static const linkedInUrl = 'https://www.linkedin.com/in/gert-haxija0212';
-  static const xUrl = 'https://x.com/gerthaxhija';
+  // static const xUrl = 'https://x.com/gerthaxhija';
   static const githubUrl = 'https://github.com/haxgert/';
   static const resumeURl =
       'https://drive.google.com/file/d/1XV6aylFm8qg0qbXPp2Xj0vFntMW9hwnS/view?usp=drive_link';

@@ -120,11 +120,11 @@ class FooterView extends StatelessWidget {
                               onTap: () =>
                                   launchUrlString(Constants.linkedInUrl),
                             ),
-                            SizedBox(width: 30),
-                            _FooterIconButton(
-                              assetPath: Assets.x,
-                              onTap: () => launchUrlString(Constants.xUrl),
-                            ),
+                            // SizedBox(width: 30),
+                            // _FooterIconButton(
+                            //   assetPath: Assets.x,
+                            //   onTap: () => launchUrlString(Constants.xUrl),
+                            // ),
                             SizedBox(width: 30),
                             _FooterIconButton(
                               assetPath: Assets.github,
@@ -170,11 +170,11 @@ class FooterView extends StatelessWidget {
                           assetPath: Assets.linkedIn,
                           onTap: () => launchUrlString(Constants.linkedInUrl),
                         ),
-                        SizedBox(width: 30),
-                        _FooterIconButton(
-                          assetPath: Assets.x,
-                          onTap: () => launchUrlString(Constants.xUrl),
-                        ),
+                        // SizedBox(width: 30),
+                        // _FooterIconButton(
+                        //   assetPath: Assets.x,
+                        //   onTap: () => launchUrlString(Constants.xUrl),
+                        // ),
                         SizedBox(width: 30),
                         _FooterIconButton(
                           assetPath: Assets.github,

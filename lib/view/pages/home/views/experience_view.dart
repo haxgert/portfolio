@@ -41,11 +41,11 @@ class ExperienceView extends StatelessWidget {
                 ],
               ),
               ExperienceSection(
-                number: "03",
+                number: "02",
                 title: "BACKEND DEV",
                 descriptions: [
-                  "PHP & Laravel",
-                  "Mysql & Firebase",
+                  "JavaScript & Node.js",
+                  "Firebase & Supabase",
                   "PassportJs & JWT",
                   "More in the future..."
                 ],
