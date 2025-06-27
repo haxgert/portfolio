@@ -15,7 +15,7 @@ class Constants {
   // static const xUrl = 'https://x.com/gerthaxhija';
   static const githubUrl = 'https://github.com/haxgert/';
   static const resumeURl =
-      'https://drive.google.com/file/d/1XV6aylFm8qg0qbXPp2Xj0vFntMW9hwnS/view?usp=drive_link';
+      'https://drive.google.com/file/d/1-osZ9hupjMoSD0dJzQ7iuQtGHxCUhbG8/view?usp=sharing';
 
   static outLinedText(BuildContext context, {double strokeWidth = 1}) {
     return Paint()

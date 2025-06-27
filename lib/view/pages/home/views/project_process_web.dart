@@ -26,28 +26,28 @@ class ProjectProcessView extends StatelessWidget {
           SizedBox(height: 200),
           _ProcessCard(
             number: "01",
-            title: "Counselling & Analysis",
+            title: "Discovery & Strategy",
             description:
-                "In our session, my approach revolves around attentive listening, comprehensive questioning, and a dedicated effort to acquire an in-depth understanding of the scope and requirements for your solution.",
+                "Before any coding starts, I take time to understand the full scope of the product—your goals, your audience, and how the app fits into your business. I ask the right questions to make sure we’re building the right thing from the start.",
           ),
           _ProcessCard(
             isReversed: true,
             number: "02",
-            title: "User interface design",
+            title: "UI/UX Design Approach",
             description:
-                "Above all, the visual aspect of your product takes center stage for users. It must not only be aesthetically pleasing but also embrace simplicity, functionality, and interactivity. The key is to streamline elements, ensuring an enjoyable user experience while maintaining visual excellence.",
+                "Design isn’t just about good looks—it’s about solving problems. I work closely with designers to create intuitive, responsive, and consistent interfaces that make apps feel smooth and easy to use.",
           ),
           _ProcessCard(
             number: "03",
             title: "Development",
             description:
-                "I specialize in Flutter, the optimal choice for building elegant looking mobile applications. I expedite project completion. My commitment includes optimizing mobile apps performance by following up to date coding standards, prioritizing speed, security, and reliability.",
+                "While Flutter is a core strength, I also build robust apps using Kotlin for native Android and React Native when needed. I follow clean architecture and modular principles across stacks, integrate third-party APIs and Firebase, and fine-tune performance to ensure apps are fast, scalable, and production-ready.",
           ),
           _ProcessCard(
             number: "04",
-            title: "Delivery & Launch!",
+            title: "Testing & Launch",
             description:
-                "Upon project completion, my commitment is to provide deliverables that not only meet your high-quality standards but also undergo continuous and thorough monitoring. This approach ensures that the final products align with your expectations and adhere to best practices.",
+                "Once development wraps, I handle app store submissions, ongoing QA, bug fixes, and performance testing. I make sure everything runs smoothly across devices, and your app hits the ground running from day one.",
             isReversed: true,
           ),
         ],
