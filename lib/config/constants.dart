@@ -8,6 +8,7 @@ class Constants {
 
   static const email = 'haxhijag645@gmail.com';
   static const phoneNumber = '+355 677514201';
+  static const githubUsername = 'haxgert';
   static const address = 'Bulevardi Zogu I Pare, Shkoder, Albania';
 
   static const linkedInUrl = 'https://www.linkedin.com/in/gert-haxija0212';

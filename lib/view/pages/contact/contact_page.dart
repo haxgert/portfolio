@@ -77,7 +77,7 @@ class ContactPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text.rich(TextSpan(
-            text: "I'd Love To Hear From You ",
+            text: "I'd Love To Hear From You",
             children: [
               WidgetSpan(
                 alignment: PlaceholderAlignment.aboveBaseline,
@@ -109,7 +109,7 @@ class ContactPage extends StatelessWidget {
             minLeadingWidth: 60,
             contentPadding: EdgeInsets.symmetric(horizontal: 0),
             title: Text(
-              'WHATSAPP',
+              'Phone',
               style: Theme.of(context)
                   .textTheme
                   .labelSmall
@@ -138,7 +138,7 @@ class ContactPage extends StatelessWidget {
             ),
             contentPadding: EdgeInsets.symmetric(horizontal: 0),
             title: Text(
-              'EMAIL',
+              'Email',
               style: Theme.of(context)
                   .textTheme
                   .labelSmall
@@ -170,7 +170,39 @@ class ContactPage extends StatelessWidget {
             ),
             contentPadding: EdgeInsets.symmetric(horizontal: 0),
             title: Text(
-              'GITHUB',
+              'Github',
+              style: Theme.of(context)
+                  .textTheme
+                  .labelSmall
+                  ?.copyWith(color: Colors.black),
+            ),
+            subtitle: Text(
+              Constants.githubUsername,
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w500,
+                fontSize: 16,
+                fontFamily: "Raleway",
+              ),
+            ),
+          ),
+          Divider(height: 40),
+          ListTile(
+            onTap: () async {
+              launchUrlString(Constants.linkedInUrl);
+            },
+            minLeadingWidth: 60,
+            leading: CircleAvatar(
+              child: SvgPicture.asset(
+                "assets/svg/linkedIn.svg",
+                colorFilter: ColorFilter.mode(Colors.white, BlendMode.srcIn),
+                width: 25,
+              ),
+              radius: 25,
+            ),
+            contentPadding: EdgeInsets.symmetric(horizontal: 0),
+            title: Text(
+              'LinkedIn',
               style: Theme.of(context)
                   .textTheme
                   .labelSmall
@@ -247,13 +279,13 @@ class ContactPage extends StatelessWidget {
                     "Thank you for contacting me. For faster response please hit me up on Whatsapp!");
               },
               style: ButtonStyle(
-                fixedSize: MaterialStateProperty.resolveWith(
+                fixedSize: WidgetStateProperty.resolveWith(
                     (states) => Size(double.maxFinite, 60)),
-                shape: MaterialStateProperty.resolveWith(
+                shape: WidgetStateProperty.resolveWith(
                   (states) => RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(0)),
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith(
+                backgroundColor: WidgetStateProperty.resolveWith(
                     (states) => Theme.of(context).colorScheme.secondary),
               ),
               child: Text(

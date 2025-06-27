@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
 }
 
 class _HomePageSpacer extends StatelessWidget {
-  const _HomePageSpacer({super.key});
+  const _HomePageSpacer();
 
   @override
   Widget build(BuildContext context) {

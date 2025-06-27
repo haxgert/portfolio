@@ -82,8 +82,6 @@ class ThemeConfig {
         onSecondary: AppColors.red,
         error: AppColors.red,
         onError: AppColors.red,
-        background: AppColors.primary,
-        onBackground: AppColors.primary,
         surface: AppColors.primary,
         onSurface: AppColors.primary,
       ),

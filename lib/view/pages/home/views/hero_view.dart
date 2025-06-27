@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:developer';
 
 import 'package:animated_flip_counter/animated_flip_counter.dart';
 import 'package:auto_size_text/auto_size_text.dart';
@@ -158,7 +157,7 @@ class _HeroViewState extends State<HeroView> {
                             child: Text.rich(
                               TextSpan(
                                 text:
-                                    "Flutter Developer & Open Source Enthusiast",
+                                    "Mobile Developer & Flutter Specialist",
                                 style: TextStyle(
                                   fontSize: context.isDeskTop ? 16 : 14,
                                   fontWeight: FontWeight.w800,
@@ -166,7 +165,7 @@ class _HeroViewState extends State<HeroView> {
                                 children: [
                                   TextSpan(
                                       text:
-                                          ", been working as a freelancer and in tech companies for years with a straight focus on the flutter and mobile world. Excited for the upcoming opportunities.",
+                                          ", building fast, cross-platform apps with Flutter, Kotlin, and React Native. I’ve spent years crafting clean, scalable apps in fintech, healthcare, and beyond. Always excited to ship great products and explore new tools.",
                                       style: TextStyle(
                                         fontSize: context.isDeskTop ? 16 : 12,
                                         fontWeight: FontWeight.w300,

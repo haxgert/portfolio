@@ -6,7 +6,6 @@ import 'package:gert_haxhija/view/widgets/app_button.dart';
 
 import '../../../../extensions/context_ext.dart';
 import '../../../widgets/section_title.dart';
-import '../../experience/experience_page.dart';
 
 class ExperienceView extends StatelessWidget {
   const ExperienceView({super.key});
@@ -35,9 +34,10 @@ class ExperienceView extends StatelessWidget {
                 title: "MOBILE DEV",
                 descriptions: [
                   "Dart & Flutter",
+                  "Kotlin & Jetpack",
                   "MVC MVVM & Bloc",
-                  "Third party integrations",
-                  "And much more....",
+                  "React Native",  
+                  "Third party integrations",                 
                 ],
               ),
               ExperienceSection(

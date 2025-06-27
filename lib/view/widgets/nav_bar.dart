@@ -93,7 +93,7 @@ class _AnimatedNavWrapperState extends State<AnimatedNavWrapper> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       InkWell(
-                        overlayColor: MaterialStateProperty.resolveWith(
+                        overlayColor: WidgetStateProperty.resolveWith(
                             (states) => Colors.transparent),
                         onTap: () {
                           context.go(Routes.home);
