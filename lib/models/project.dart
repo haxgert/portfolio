@@ -40,7 +40,7 @@ final List<Project> kProjects = [
           "assets/images/project-images/ic-${i}.png",
       ],
       links: [
-        "https://apps.apple.com/tm/developer/bjs-soft-solutions-llc/id1728433156",
+        "https://apps.apple.com/tm/app/image-converter-jpg-png-heic/id6476975237?platform=iphone",
         "https://play.google.com/store/apps/details?id=com.emt.image.pdf.jpg.converter",
       ],
       name: "Image Converter: JPG / PNG",

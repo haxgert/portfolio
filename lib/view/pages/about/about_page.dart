@@ -88,7 +88,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    "Gert Haxhija is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
+                    "Gert Haxhija is a mobile developer with over 8 years of experience building performant, scalable apps across platforms using Flutter, Kotlin, and React Native. He’s passionate about crafting clean, intuitive apps, especially in healthcare, fintech, and marketplace domains.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -96,7 +96,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    "Acknowledging that he's on a journey of continuous improvement, Gert understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
+                    "Gert is always learning—whether it’s integrating the latest Firebase features or exploring FlutterFlow to speed up MVP delivery. He believes each project is a chance to grow and sharpen his skills through feedback, collaboration, and hands-on problem-solving.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -104,7 +104,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    "In essence, Gert Haxhija is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
+                    "In every role, Gert brings strong attention to architecture, UI/UX quality, and reliable API integration, aiming to deliver apps that are both beautiful and battle-tested in production.",
                     style: Theme.of(context)
                         .textTheme
                         .bodyLarge
@@ -147,7 +147,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 10),
         Text(
-          "Gert Haxhija is a mobile application developer based in Pakistan, specializing in Hybrid Mobile Apps Development using Flutter. As a dedicated freelancer, he continually seeks new opportunities to enhance his skills.",
+          "Gert Haxhija is a mobile developer with over 8 years of experience building performant, scalable apps across platforms using Flutter, Kotlin, and React Native. He’s passionate about crafting clean, intuitive apps, especially in healthcare, fintech, and marketplace domains.",
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
@@ -156,7 +156,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 20),
         Text(
-          "Acknowledging that he's on a journey of continuous improvement, Gert understands that his earlier projects may not fully reflect his current expertise. Nevertheless, he values the lessons learned from these experiences and views them as opportunities for growth.",
+          "Gert is always learning—whether it’s integrating the latest Firebase features or exploring FlutterFlow to speed up MVP delivery. He believes each project is a chance to grow and sharpen his skills through feedback, collaboration, and hands-on problem-solving.",
           style: Theme.of(context)
               .textTheme
               .bodyMedium
@@ -165,7 +165,7 @@ class AboutPage extends StatelessWidget {
         ),
         SizedBox(height: 20),
         Text(
-          "In essence, Gert Haxhija is a passionate developer committed to excellence. He understands that each project is a chance to become better, welcoming feedback and constructive criticism as stepping stones to further development.",
+          "In every role, Gert brings strong attention to architecture, UI/UX quality, and reliable API integration, aiming to deliver apps that are both beautiful and battle-tested in production.",
           style: Theme.of(context)
               .textTheme
               .bodyMedium
