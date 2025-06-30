@@ -82,7 +82,7 @@ final List<Project> kProjects = [
       for (int i = 1; i < 14; i++)
         "assets/images/project-images/upper-${i}.png",
     ],
-    name: "Driver - Router Planner & GPS Tracking",
+    name: "Driver - Router & GPS Tracking",
     description:
         """This is a route planning and delivery management app built with Flutter. Designed for delivery teams and solo drivers, it helps plan optimized delivery routes, manage stops, and streamline navigation to save time and boost productivity.""",
     features: "Route Optimization, Multi-Stop Planning, Live Navigation, Delivery Notes, Proof of Delivery",
@@ -99,6 +99,7 @@ final List<Project> kProjects = [
     description:
         """AI Rizz Pickup Lines is a pickup lines generator app that generates unique and creative pickup lines based on a screenshot provide, mode selected or a certain reply from your crush!""",
     features: "Open AI - GPT4 Integration, In-App-Purchases",
+    availablePlatforms: "iOS",
     links: [
       "https://apps.apple.com/us/app/ai-rizz-pickup-lines/id6676414262",
     ],
