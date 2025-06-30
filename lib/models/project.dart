@@ -22,6 +22,21 @@ class Project {
 final List<Project> kProjects = [
   Project(
     pngPaths: [
+      for (int i = 1; i < 15; i++)
+        "assets/images/project-images/drgalen-${i}.png",
+    ],
+    name: "DR.GALEN",
+    description:
+        """Dr. Galen is a cross-platform healthcare app built with Flutter, designed to connect users with medical professionals. It supports appointment booking, health record storage, and real-time consultations via video and chat.""",
+    features: "Doctor Search, Appointment Booking, Video Consultations, Medical Records, Notifications",
+    stateManagement: "Provider",
+    links: [
+      "https://apps.apple.com/in/app/dr-galen/id1460801180?platform=iphone",
+      "https://play.google.com/store/apps/details?id=com.drgalen.org.dr_galen",
+    ],
+  ),
+  Project(
+    pngPaths: [
       for (int i = 1; i < 17; i++)
         "assets/images/project-images/syncwell-${i}.png",
     ],
@@ -32,6 +47,22 @@ final List<Project> kProjects = [
     links: [
       "https://apps.apple.com/us/app/syncwell/id6636551991",
       "https://play.google.com/store/apps/details?id=com.app.syncwell",
+    ],
+  ),
+  Project(
+    pngPaths: [
+      for (int i = 1; i < 15; i++)
+        "assets/images/project-images/deal-connect-${i}.png",
+    ],
+    name: "DEAL CONNECT",
+    description:
+        """Deal Connect is a real estate networking app that helps investors, agents, and wholesalers discover and close property deals faster. It enables users to list, share, and connect over off-market opportunities, with real-time messaging and lead tracking.""",
+    languageFramework: "Swift (iOS), Kotlin (Android)",
+    features: "Property Listings, Deal Sharing, Chat/Messaging, Lead Management, Push Notifications",
+    stateManagement: "Native MVVM / ViewModel pattern",
+    links: [
+      "https://apps.apple.com/us/app/deal-connect-real-estate/id1490384727",
+      "https://play.google.com/store/apps/details?id=com.dealbuyer.bit19",
     ],
   ),
   Project(
@@ -46,6 +77,20 @@ final List<Project> kProjects = [
       name: "Image Converter: JPG / PNG",
       description:
           'Image Converter: JPG / PNG is an image utility application. It allows users to seamlessly convert images from on format to other, resize them, crop them or even convert multiple images into a single PDF file (encrypted or non-encrypted).'),
+  Project(
+    pngPaths: [
+      for (int i = 1; i < 14; i++)
+        "assets/images/project-images/upper-${i}.png",
+    ],
+    name: "Driver - Router Planner & GPS Tracking",
+    description:
+        """This is a route planning and delivery management app built with Flutter. Designed for delivery teams and solo drivers, it helps plan optimized delivery routes, manage stops, and streamline navigation to save time and boost productivity.""",
+    features: "Route Optimization, Multi-Stop Planning, Live Navigation, Delivery Notes, Proof of Delivery",
+    links: [
+      "https://apps.apple.com/us/app/delivery-driver-app-by-upper/id1613504282?platform=iphone",
+      "https://play.google.com/store/apps/details?id=upper.team.route.planner.navigation.routing.app&hl=en",
+    ],
+  ),
   Project(
     pngPaths: [
       for (int i = 1; i <= 8; i++) "assets/images/project-images/pl-${i}.png",
