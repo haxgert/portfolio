@@ -134,6 +134,11 @@ class _WorksPageState extends State<WorksPage> with TickerProviderStateMixin {
                     mainAxisCellCount: context.isMobile ? 3 : 3,
                     child: _WorkItem(item: kProjects[8]),
                   ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: context.isMobile ? 4 : 2,
+                    mainAxisCellCount: context.isMobile ? 3 : 3,
+                    child: _WorkItem(item: kProjects[9]),
+                  ),
                   // StaggeredGridTile.count(
                   //   crossAxisCellCount: 2,
                   //   mainAxisCellCount: 3,

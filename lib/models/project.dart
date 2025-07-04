@@ -66,6 +66,38 @@ final List<Project> kProjects = [
     ],
   ),
   Project(
+    pngPaths: [
+      for (int i = 1; i < 13; i++)
+        "assets/images/project-images/intuitiv-eating-${i}.jpg",
+    ],
+    name: "Intuitive Eating Buddy & Diary",
+    description:
+        """Intuitive Eating Buddy & Diary is a mindful eating companion app that helps users improve their relationship with food. It encourages journaling around hunger, emotions, and habits—without focusing on calories or weight loss. The app fosters healthy, intuitive eating patterns through self-reflection and psychological cues.""",
+    languageFramework: "Kotlin (Android)",
+    availablePlatforms: "Android",
+    features: "Food & emotion journal, Guided reflection prompts, Mood tracking, Habit insights, Intuitive eating principles, Daily reminders & gentle nudges, Secure offline-first experience",
+    stateManagement: "ViewModel + LiveData",
+    links: [
+      "https://play.google.com/store/apps/details?id=ro.sagital.areyouhungry",
+    ],
+  ),
+  Project(
+    pngPaths: [
+      for (int i = 1; i < 13; i++)
+        "assets/images/project-images/JammNation-${i}.jpg",
+    ],
+    name: "JammNation Music Hub",
+    description:
+        """JammNation is a fan engagement platform that empowers users to connect directly with their favorite musicians. With live artist feeds, direct messaging, exclusive video drops, and event updates, it delivers a seamless, mobile-first fan experience.""",
+    languageFramework: "FlutterFlow, Supabase, FCM",
+    features: "Follow and interact with favorite artists, Get real-time updates and exclusive content, Artist-curated posts and videos, Push notifications for new releases and events, Clean, responsive UI optimized for mobile, Secure account creation and user onboarding",
+    stateManagement: "Built-in State Management",
+    links: [
+      "https://apps.apple.com/us/app/jammnation/id6473900403",
+      "https://play.google.com/store/apps/details?id=com.jammnation.fan&hl=en_US",
+    ],
+  ),
+  Project(
       pngPaths: [
         for (int i = 1; i <= 15; i++)
           "assets/images/project-images/ic-${i}.png",
@@ -76,7 +108,8 @@ final List<Project> kProjects = [
       ],
       name: "Image Converter: JPG / PNG",
       description:
-          'Image Converter: JPG / PNG is an image utility application. It allows users to seamlessly convert images from on format to other, resize them, crop them or even convert multiple images into a single PDF file (encrypted or non-encrypted).'),
+          'Image Converter: JPG / PNG is an image utility application. It allows users to seamlessly convert images from on format to other, resize them, crop them or even convert multiple images into a single PDF file (encrypted or non-encrypted).'
+  ),
   Project(
     pngPaths: [
       for (int i = 1; i < 14; i++)
