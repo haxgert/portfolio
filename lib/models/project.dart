@@ -90,7 +90,7 @@ final List<Project> kProjects = [
     description:
         """JammNation is a fan engagement platform that empowers users to connect directly with their favorite musicians. With live artist feeds, direct messaging, exclusive video drops, and event updates, it delivers a seamless, mobile-first fan experience.""",
     languageFramework: "FlutterFlow, Supabase, FCM",
-    features: "Follow and interact with favorite artists, Get real-time updates and exclusive content, Artist-curated posts and videos, Push notifications for new releases and events, Clean, responsive UI optimized for mobile, Secure account creation and user onboarding",
+    features: "Follow favorite artists, Real-time updates, Artist-curated posts & videos, Push notifications, Secure account creation & user onboarding",
     stateManagement: "Built-in State Management",
     links: [
       "https://apps.apple.com/us/app/jammnation/id6473900403",
