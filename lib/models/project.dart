@@ -99,6 +99,22 @@ final List<Project> kProjects = [
   ),
   Project(
       pngPaths: [
+        for (int i = 1; i <= 12; i++)
+          "assets/images/project-images/go-slice-${i}.png",
+      ],
+      links: [
+        "https://apps.apple.com/us/app/go-slice/id1441767098",
+        "https://play.google.com/store/apps/details?id=com.luckykat.slice&hl=en_US&gl=US",
+      ],
+      name: "Go Slice Puzzle Game",
+      languageFramework: "Flutter, Flame Engine, Firebase",
+      features: "Slice-based puzzle, 2D physics engine, Smooth animation, Level progression, Offline support",
+      stateManagement: "Flame’s built-in state handling",
+      description:
+          'Go Slice is a fun and relaxing 2D puzzle game where players slice objects to guide characters through creative paths and complete levels. Designed with intuitive touch controls, it offers a casual yet brain-teasing experience for all ages.'
+  ),
+  Project(
+      pngPaths: [
         for (int i = 1; i <= 15; i++)
           "assets/images/project-images/ic-${i}.png",
       ],
