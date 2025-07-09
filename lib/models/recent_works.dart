@@ -14,12 +14,12 @@ class RecentWork {
 
   static final List<RecentWork> works = [
     RecentWork(
-        title: "Image Converter: Jpg Png",
+        title: "Fashion Models & Rewards Community",
         imagePath: "assets/images/1.png",
         playStoreUrl:
-            "https://play.google.com/store/apps/details?id=com.emt.image.pdf.jpg.converter&hl=en&gl=US",
+            "https://play.google.com/store/apps/details?id=net.beautypass.beautypass&hl=en_US",
         appStoreUrl:
-            "https://apps.apple.com/us/app/image-converter-jpg-png-heic/id6476975237"),
+            "https://apps.apple.com/us/app/beautypass/id1169483314"),
     RecentWork(
       title: "Dr. Galen - Online Doctor App",
       imagePath: "assets/images/2.png",

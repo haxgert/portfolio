@@ -15,7 +15,7 @@ This is my personal portfolio website v0.01 (Still a work in progress) built wit
 - Fully Responsive 🤌🏻
 - Dynamic Themes 🥂
 - Beautiful Animations 🎠
-- Recent Works Section (With support for play store and github links) 🤙🏻
+- Past Works Section (With support for play store and github links) 🤙🏻
 
 ### 🔗 Preview Links:
 

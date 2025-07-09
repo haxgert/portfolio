@@ -19,7 +19,7 @@ class RecentWorksView extends StatelessWidget {
       children: [
         SectionTitle(
           backgroundText: "WORKS",
-          foreGroundText: "RECENT WORKS",
+          foreGroundText: "PAST WORKS",
           subTitle: "WORKS",
         ),
         SizedBox(height: 180),
@@ -51,7 +51,7 @@ class RecentWorksView extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                "CHECKOUT MY PROJECTS",
+                "VIEW MORE PROJECTS",
                 style: Theme.of(context).textTheme.labelSmall,
               ),
               SizedBox(width: 8),

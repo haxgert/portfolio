@@ -87,7 +87,7 @@ class _ExperiencePageState extends State<ExperiencePage>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    "Checkout My Projects",
+                    "View More Projects",
                     style: Theme.of(context).textTheme.labelSmall,
                   ),
                   SizedBox(width: 8),
