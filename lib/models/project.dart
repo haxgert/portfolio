@@ -113,6 +113,24 @@ final List<Project> kProjects = [
       description:
           'Go Slice is a fun and relaxing 2D puzzle game where players slice objects to guide characters through creative paths and complete levels. Designed with intuitive touch controls, it offers a casual yet brain-teasing experience for all ages.'
   ),
+
+  Project(
+      pngPaths: [
+        for (int i = 1; i <= 6; i++)
+          "assets/images/project-images/beautypass-${i}.png",
+      ],
+      links: [
+        "https://apps.apple.com/us/app/beautypass/id1169483314",
+        "https://play.google.com/store/apps/details?id=net.beautypass.beautypass&hl=en_US",
+      ],
+      name: "BeautyPass",
+      languageFramework: "React Native (Expo), TypeScript, Firebase, RESTful APIs, Stripe API",
+      features: "User authentication, Beauty treatment booking, In-app membership access, Location-based salon discovery, QR code check-ins, Push notifications",
+      stateManagement: "Redux Toolkit",
+      description:
+          'BeautyPass connects users with top beauty salons and treatments. Members can book exclusive services, discover nearby offers, and check in with QR codes. Built with React Native Expo, the app delivers a sleek, responsive, and location-aware experience.'
+  ),
+
   Project(
       pngPaths: [
         for (int i = 1; i <= 15; i++)
@@ -128,16 +146,32 @@ final List<Project> kProjects = [
   ),
   Project(
     pngPaths: [
-      for (int i = 1; i < 14; i++)
-        "assets/images/project-images/upper-${i}.png",
+      for (int i = 1; i < 7; i++)
+        "assets/images/project-images/axa-wallet-${i}.png",
     ],
-    name: "Driver - Router & GPS Tracking",
+    name: "AXR Wallet",
+    languageFramework: "React Native (Expo), Web3.js / Ethers.js, Firebase, WalletConnect",
+    stateManagement: "Redux Toolkit, React Context (for wallet/session state)",
     description:
         """This is a route planning and delivery management app built with Flutter. Designed for delivery teams and solo drivers, it helps plan optimized delivery routes, manage stops, and streamline navigation to save time and boost productivity.""",
-    features: "Route Optimization, Multi-Stop Planning, Live Navigation, Delivery Notes, Proof of Delivery",
+    features: "Route Optimization, Multi-Stop Planning, Live Navigation, Delivery Notes, Proof of Delivery",    
     links: [
       "https://apps.apple.com/us/app/delivery-driver-app-by-upper/id1613504282?platform=iphone",
       "https://play.google.com/store/apps/details?id=upper.team.route.planner.navigation.routing.app&hl=en",
+    ],
+  ),
+  Project(
+    pngPaths: [
+      for (int i = 1; i < 14; i++)
+        "assets/images/project-images/upper-${i}.png",
+    ],
+    name: "AXR Wallet",
+    description:
+        """AXR Wallet is a secure crypto wallet app for managing AXR tokens and Web3 assets. Users can send, receive, and connect their wallets to dApps using WalletConnect. Built with React Native Expo, it ensures fast, responsive, and secure crypto interactions on the go.""",
+    features: "Crypto wallet, Token transactions, WalletConnect support, User authentication, Transaction history, Push notifications",
+    links: [
+      "https://apps.apple.com/app/axir-wallet/id6449461116",
+      "https://play.google.com/store/apps/details?id=com.axir.axrwallet",
     ],
   ),
   Project(
