@@ -37,7 +37,7 @@ class ExperienceView extends StatelessWidget {
                   "Kotlin & Jetpack",
                   "MVC MVVM & Bloc",
                   "React Native",  
-                  "Third party integrations",                 
+                  "Swift",                 
                 ],
               ),
               ExperienceSection(
