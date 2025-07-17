@@ -165,7 +165,7 @@ class _HeroViewState extends State<HeroView> {
                                 children: [
                                   TextSpan(
                                       text:
-                                          ", building fast, cross-platform apps with Flutter, Kotlin, React Native, and Swift. I’ve spent years crafting clean, scalable apps in fintech, healthcare, and beyond. Always excited to ship great products and explore new tools.",
+                                          ", building fast, cross-platform apps with Flutter, Kotlin, React Native. I’ve spent years crafting clean, scalable apps in fintech, healthcare, and beyond. Always excited to ship great products and explore new tools.",
                                       style: TextStyle(
                                         fontSize: context.isDeskTop ? 16 : 12,
                                         fontWeight: FontWeight.w300,
